@@ -1,3 +1,7 @@
+// This is a single line comment
+/* This is a multi-line comment
+that spans multiple lines */
+// This first js file shows simple math operations, string concatenation, and variable declarations.
 console.log( 3.5 + 35);
 console.log(2026 - 1969);
 console.log(65 / 240);
@@ -30,9 +34,9 @@ console.log(changeMe);
 
 const entree = 'Enchiladas';
 console.log(entree);
-entree = 'Tacos';
+//entree = 'Tacos';
 
-const testing;
+//const testing;
 
 let levelUp = 10;
 let powerLevel = 9001;
@@ -71,3 +75,6 @@ console.log(typeof newVariable);
 newVariable = 1;
 console.log(typeof newVariable);
 
+// A quick google question:
+// "what is the most popular website on the internet that runs on javascript legacy code?"
+// WordPress (powering a massive portion of the global web) and classic high-traffic platforms like Craigslist or older enterprise sites rely heavily on legacy JavaScript—specifically jQuery and older pre-ES6 scripts
