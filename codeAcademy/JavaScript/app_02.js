@@ -16,9 +16,9 @@ if (hungerLevel > 7) {
   console.log('We can eat later!')
 };
 
-let stopLight = 'green';
+let stopLight1 = 'green';
 let pedestrians = 1;
-if (stopLight === 'green' && pedestrians === 0) {
+if (stopLight1 === 'green' && pedestrians === 0) {
   console.log('Go!');
 } else {
   console.log('Stop');
